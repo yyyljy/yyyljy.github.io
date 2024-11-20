@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Jeff's Portfolio",
     description: "블록체인 백엔드 개발자 Jeff",
+    images: "/meta.png",
   },
   viewport: {
     width: "device-width",
