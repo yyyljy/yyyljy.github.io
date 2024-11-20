@@ -1,17 +1,14 @@
-import Contact from "@/components/Contact";
+import React from "react";
 import Header from "@/components/Header";
 import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
 
 export default function ProjectsPage() {
   return (
     <main className="min-h-screen">
       <Header />
-      <section id="projects">
-        <Projects />
-      </section>
-      <section id="contact">
-        <Contact />
-      </section>
+      <Projects />
+      <Contact />
     </main>
   );
 }

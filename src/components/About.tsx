@@ -1,3 +1,5 @@
+import React from "react";
+
 const About = () => {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden">
@@ -8,18 +10,18 @@ const About = () => {
       </div>
 
       <div className="relative text-center space-y-6 p-4">
-        <h1 className="invisible text-4xl md:text-5xl font-bold mb-4 animate-typing-top overflow-hidden whitespace-nowrap border-r-4 border-r-blue-400 pr-5 w-[230px] mx-auto text-white [animation-fill-mode:forwards] [border-right:none] [animation-timing-function:steps(20,end)]">
+        <h1 className="invisible text-4xl md:text-5xl font-bold mb-4 animate-typing-top overflow-hidden whitespace-nowrap w-[230px] mx-auto text-white">
           안녕하세요
         </h1>
-        <h1 className="invisible text-4xl md:text-5xl font-bold mb-4 animate-typing-mid overflow-hidden whitespace-nowrap border-r-4 border-r-blue-400 pr-5 w-[500px] mx-auto bg-gradient-to-r from-blue-400 to-blue-600 text-transparent bg-clip-text [animation-fill-mode:forwards] [border-right:none] [animation-timing-function:steps(20,end)]">
+        <h1 className="invisible text-4xl md:text-5xl font-bold mb-4 animate-typing-mid overflow-hidden whitespace-nowrap w-[500px] mx-auto bg-gradient-to-r from-blue-400 to-blue-600 text-transparent bg-clip-text">
           백엔드 개발자
         </h1>
-        <h1 className="invisible text-4xl md:text-5xl font-bold mb-4 animate-typing-bottom overflow-hidden whitespace-nowrap border-r-4 border-r-blue-400 pr-5 w-[500px] mx-auto text-white [animation-fill-mode:forwards] [border-right:none] [animation-timing-function:steps(20,end)]">
+        <h1 className="invisible text-4xl md:text-5xl font-bold mb-4 animate-typing-bottom overflow-hidden whitespace-nowrap w-[500px] mx-auto text-white">
           <span className="text-blue-400">[</span>Jeff
           <span className="text-blue-400">]</span> 입니다
         </h1>
 
-        <div className="opacity-0 animate-fade-in-up delay-[2000ms] pt-8 flex justify-center space-x-4">
+        <div className="animate-fade-in pt-8 flex justify-center space-x-4">
           <a
             href="/projects"
             className="px-8 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors shadow-lg hover:shadow-blue-500/25"
