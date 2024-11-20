@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Jeff's Portfolio",
+  title: "Jeff's Blockchain World",
   description: "블록체인 백엔드 개발자 Jeff",
   keywords: ["블록체인", "백엔드 개발자", "Web3"],
   authors: [{ name: "Jeff" }],
@@ -13,17 +13,18 @@ export const metadata: Metadata = {
   publisher: "Jeff",
   robots: "index, follow",
   openGraph: {
-    title: "Jeff's Portfolio",
-    description: "블록체인 백엔드 개발자 Jeff",
+    title: "Jeff's Blockchain World",
+    description: "블록체인 개발자 Jeff",
     url: "http://block-chain.kr",
-    siteName: "Jeff's Portfolio",
+    siteName: "Jeff's Blockchain World",
     locale: "ko_KR",
     type: "website",
+    images: "/meta.png",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jeff's Portfolio",
-    description: "블록체인 백엔드 개발자 Jeff",
+    title: "Jeff's Blockchain World",
+    description: "블록체인 개발자 Jeff",
     images: "/meta.png",
   },
   viewport: {
