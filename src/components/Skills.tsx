@@ -40,6 +40,42 @@ const Skills = () => {
           </div>
         </div>
       </div>
+      <div className="container mx-auto p-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="p-6 bg-slate-700 rounded-lg shadow-lg hover:bg-slate-600 transition-all duration-300 transform hover:-translate-y-1">
+            <div className="text-center">
+              <div className="text-blue-400 text-xl mb-2">Go</div>
+              <div className="h-2 bg-slate-600 rounded-full">
+                <div className="h-2 bg-blue-400 rounded-full w-[20%]"></div>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 bg-slate-700 rounded-lg shadow-lg hover:bg-slate-600 transition-all duration-300 transform hover:-translate-y-1">
+            <div className="text-center">
+              <div className="text-blue-400 text-xl mb-2">Ethers.js</div>
+              <div className="h-2 bg-slate-600 rounded-full">
+                <div className="h-2 bg-blue-400 rounded-full w-[80%]"></div>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 bg-slate-700 rounded-lg shadow-lg hover:bg-slate-600 transition-all duration-300 transform hover:-translate-y-1">
+            <div className="text-center">
+              <div className="text-blue-400 text-xl mb-2">Web3.js</div>
+              <div className="h-2 bg-slate-600 rounded-full">
+                <div className="h-2 bg-blue-400 rounded-full w-[70%]"></div>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 bg-slate-700 rounded-lg shadow-lg hover:bg-slate-600 transition-all duration-300 transform hover:-translate-y-1">
+            <div className="text-center">
+              <div className="text-blue-400 text-xl mb-2">Personality 😊</div>
+              <div className="h-2 bg-slate-600 rounded-full">
+                <div className="h-2 bg-blue-400 rounded-full w-[95%]"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

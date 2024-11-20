@@ -6,7 +6,32 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Jeff's Portfolio",
-  description: "Backend Developer Portfolio",
+  description: "블록체인 백엔드 개발자 Jeff",
+  keywords: ["블록체인", "백엔드 개발자", "Web3"],
+  authors: [{ name: "Jeff" }],
+  creator: "Jeff",
+  publisher: "Jeff",
+  robots: "index, follow",
+  openGraph: {
+    title: "Jeff's Portfolio",
+    description: "블록체인 백엔드 개발자 Jeff",
+    url: "http://block-chain.kr",
+    siteName: "Jeff's Portfolio",
+    locale: "ko_KR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jeff's Portfolio",
+    description: "블록체인 백엔드 개발자 Jeff",
+  },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
