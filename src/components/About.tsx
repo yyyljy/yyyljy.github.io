@@ -14,7 +14,7 @@ const About = () => {
           안녕하세요
         </h1>
         <h1 className="invisible text-4xl md:text-5xl font-bold mb-4 animate-typing-mid overflow-hidden whitespace-nowrap w-[500px] mx-auto bg-gradient-to-r from-blue-400 to-blue-600 text-transparent bg-clip-text">
-          백엔드 개발자
+          블록체인 개발자
         </h1>
         <h1 className="invisible text-4xl md:text-5xl font-bold mb-4 animate-typing-bottom overflow-hidden whitespace-nowrap w-[500px] mx-auto text-white">
           <span className="text-blue-400">[</span>Jeff
